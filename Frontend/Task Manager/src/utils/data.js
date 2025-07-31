@@ -19,7 +19,7 @@ export const SIDE_MENU_DATA = [{
 },
 {
     id: "03",
-    label: "create Task",
+    label: "Create Task",
     icon: LuSquarePlus,
     path: '/admin/create-task',
 },

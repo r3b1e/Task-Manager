@@ -33,9 +33,9 @@ const SideMenu = ({ activeMenu }) => {
       <div className="w-55 flex flex-col items-center">
         <div>
           <img
-            src={user?.profileImageUrl || ""}
+            src={user?.profileImageUrl || "/"}
             alt="Profile Image"
-            className="w-20 rounded-full h-20 object-cover"
+            className="w-20 rounded-full h-20 object-cover object-top"
           />
         </div>
         {user?.role === "admin" && <div className="bg-primary px-2 rounded text-white mb-5 mt-1">Admin</div>}
